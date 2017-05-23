@@ -1,3 +1,18 @@
+/**
+java 读取Excel文件（poi）：
+需添加maven依赖：
+<dependency>
+	<groupId>org.apache.poi</groupId>
+	<artifactId>poi</artifactId>
+	<version>3.10-FINAL</version>
+</dependency>
+<dependency>
+	<groupId>org.apache.poi</groupId>
+	<artifactId>poi-ooxml</artifactId>
+	<version>3.10-FINAL</version>
+</dependency>
+*/
+
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.ArrayList;
